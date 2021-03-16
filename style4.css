@@ -1,0 +1,30 @@
+h1 {
+  color:red;
+}
+
+header p {
+  color: gray;
+}
+
+p {
+  color:darkblue;
+}
+
+article div p{
+ color: purple;
+}
+
+article .article-body p{
+color: saddlebrown;	
+}
+
+.article-body {
+  background-color: yellow;
+}
+
+#footer-p {
+  color: blue;
+}
+
+
+
