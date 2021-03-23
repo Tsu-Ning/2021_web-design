@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>jQuery</title>
+    <script src="js/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+
+<script type="text/javascript">
+
+$(document).ready(
+	function(){
+$('h2').css('color', 'Blue');
+$('h2').css('fontSize', '40px');
+});
+
+
+$(document).ready(
+	function(){
+$('#exercise1').css('color', 'yellow');
+$('#exercise1').click(
+	function(){
+$('#exercise1').css('fontSize', '100px');
+});
+});
+
+
+$(document).ready(function(){
+$('body').css('background', 'green');
+
+$('body').click(
+	function(){
+$('body').css('background', 'red');
+});
+});
+
+</script>
+
+
+</head>
+
+<body>
+	<h2>Hello World</h2>
+    <div id="exercise1">Hello jQuery</div>
+    <div id="exercise1"><img class="img-box1" src="smile.jpeg"></div>
+</body>
+
+</html>
